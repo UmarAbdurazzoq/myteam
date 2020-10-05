@@ -1,0 +1,46 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 32px;
+  transition: background-color, color 0.3s ease;
+}
+
+.button--light{
+  color: #fff;
+  border: 2px solid #FFFFFF;
+
+  &:hover{
+    background-color: #fff;
+    color: $dark-green;
+  }
+}
+
+.button--dark{
+  color: $state-green;
+  border: 2px solid $state-green;
+
+  &:hover{
+    background-color: $state-green;
+    color: #fff;
+  }
+}
+
+.button--secondary{
+  background-color: #fff;
+  color: $dark-green;
+  border: 2px solid #fff;
+  
+  &:hover{
+    border: 2px solid $rapture-blue;
+    background-color: $rapture-blue;
+    color: $dark-green;
+  }
+  
+}
