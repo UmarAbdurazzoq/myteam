@@ -1,0 +1,22 @@
+.ready-section {
+  background-color: $light-coral;
+  background-image: url("../img/bg-pattern-home-6-about-5.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 122px;
+  background-position: left bottom;
+}
+
+.ready-section__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 76px 94px;
+}
+
+.ready-section__heading {
+  width: 504px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: $state-green;
+}

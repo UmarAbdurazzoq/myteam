@@ -879,4 +879,33 @@ img {
   text-align: center;
   color: #FFFFFF;
 }
+
+.ready-section {
+  background-color: #F67E7E;
+  background-image: url("../img/bg-pattern-home-6-about-5.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 122px;
+  background-position: left bottom;
+}
+
+.ready-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 76px 94px;
+}
+
+.ready-section__heading {
+  width: 504px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+}
 /*# sourceMappingURL=main.css.map */
