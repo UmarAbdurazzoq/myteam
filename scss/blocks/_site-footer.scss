@@ -1,0 +1,156 @@
+.site-footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #002529;
+}
+
+.site-footer__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.site-footer__logo-nav {
+  max-width: 230px;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.site-footer__logo {
+  margin-bottom: 25px;
+}
+
+.site-footer__navlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.site-footer__navlist-item {
+  margin-right: 40px;
+}
+
+.site-footer__navlist-link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-footer__navlist-link:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
+.site-footer__address-phone {
+  max-width: 445px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.site-footer__address-phone,
+.site-footer__phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.site-footer__address {
+  margin-bottom: 0;
+}
+
+.site-footer__phone:hover {
+  text-decoration: none;
+  color: tomato;
+}
+
+.site-footer__social-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.socials__item + .socials__item {
+  margin-left: 16px;
+}
+
+.socials__link {
+  display: block;
+  color: #fff;
+}
+
+.socials__icon {
+  display: block;
+}
+
+.socials__link:hover {
+  color: tomato;
+}
+
+.site-footer__copy {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media only screen and (max-width: 660px) {
+  .site-footer__logo-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-footer__logo {
+    margin-bottom: auto;
+  }
+
+  .site-footer__social-copy {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .site-footer__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .site-footer__logo {
+    margin-bottom: 24px;
+  }
+
+  .site-footer__navlist {
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+
+  .site-footer__navlist-item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .site-footer__address-phone {
+    margin-bottom: 40px;
+  }
+
+  .site-footer__social-copy {
+    flex-direction: column;
+  }
+
+  .socials {
+    margin-bottom: 16px;
+  }
+}
