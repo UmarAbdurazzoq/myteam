@@ -396,12 +396,19 @@ body {
   font-family: "Livvic", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  background-color: #014E56;
   color: #fff;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .visually-hidden {
@@ -485,6 +492,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.site-header__logo {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .site-header__navbar {

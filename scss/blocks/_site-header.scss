@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.site-header__logo{
+  flex-shrink: 0;
+}
+
 .site-header__navbar {
   width: 100%;
   display: flex;

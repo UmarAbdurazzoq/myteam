@@ -17,10 +17,15 @@ body {
   font-family: "Livvic", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  background-color: $midnight-green;
   color:#fff;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+main{
+  flex-grow: 1;
 }
